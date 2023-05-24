@@ -1,0 +1,77 @@
+/** Navigation Bar Section     **/
+
+#Navbar {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#Navbar .Container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#Navbar img {
+    width: 10vw;
+}
+
+#Navbar .second {
+    display: flex;
+}
+
+#Navbar .second h2 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/** Home Screen Section **/
+
+#Home {
+    padding: 10px 100px 10px 100px;
+}
+
+#Home .Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Home img {
+    width: 35vw;
+}
+
+#Home .hero {
+   display: flex;
+
+}
+
+#Home .description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Home .content {
+    height: 25vh;
+    background-image: url("../assets/wave.svg");
+    background: red;
+}
+
+.main-button {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 10vw;
+    color: black;
+    text-align: center;
+    background: #ECE22C;
+    box-shadow: -1px 10px 0px -6px rgba(0,0,0,1);
+-webkit-box-shadow: -1px 10px 0px -6px rgba(0,0,0,1);
+-moz-box-shadow: -1px 10px 0px -6px rgba(0,0,0,1);
+}
+
+.main-button:hover {
+    scale: 1.1;
+}
