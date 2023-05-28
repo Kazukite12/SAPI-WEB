@@ -11,12 +11,20 @@ const Home =()=> {
             <div className="Container">
                 <div className="description">
                     <h2>Sate Pisang</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid officiis amet, velit quaerat quisquam dolores Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus libero aliquam sed veniam rerum placeat aut quia sequi eveniet nemo.</p>
+                    <p>Sate Pisang Hits merupakan produk yang ditawarkan kepada calon konsumen berupa perpaduan roti dengan pisang yang diberikan varian rasa yang membuat anda merasakan perpaduan yang sungguh nikmat saat memakannya.</p>
                     <h2 className="main-button">Order Now</h2>
                 </div>
                 <div className="hero">
                     <img src={sate} />
                 </div>
+            </div>
+            <div className="Container" style={{marginTop:90}}>
+                <div className="about">
+                    <h2>About Us</h2>
+                    <p>Konsep dari produk ini adalah membuat kantong aman, perut kenyang, hati senang dengan menggunakan bahan-bahan yang berkualitas, proses pembuatan yang higienis sehingga menjaga kualitas produk dan menjamin kesehatan para konsumen. enis pisang yang ditawarkan dalam produk ini menggunakan bahan utama pisang kepok, serta varian rasa seperti: Bubble Gum, Coklat, Tiramisu, dan Mactha dengan tambahan toping seperti : Keju, Oreo dan Biskuit.</p>
+    
+                </div>
+
             </div>
         </div>
         <Footer />
