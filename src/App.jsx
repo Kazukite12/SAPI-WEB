@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/footer'
 import Product from './components/Product'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +17,10 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Produk' element={<Product/>}/>
+          <Route path='/Kontak' element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   )
 }

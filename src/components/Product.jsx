@@ -18,18 +18,12 @@ const Product =()=> {
                         <p>Sate pisang coklat adalah kombinasi menggoda antara manisnya pisang yang matang dengan lezatnya coklat. Setiap tusukan sate pisang ini dilapisi dengan lapisan coklat leleh yang memberikan cita rasa gurih dan nikmat. Sate pisang coklat ini adalah pilihan sempurna bagi para penggemar coklat yang ingin menikmati kombinasi lezat pisang dan coklat dalam setiap gigitannya.</p>
                     </div>
                     <div className="card">
-                        <h2>Tiramisu</h2>
-                        <p>Sate pisang varian tiramisu merupakan perpaduan menarik antara manisnya pisang dengan cita rasa khas tiramisu. Setiap tusukan sate pisang ini dilapisi dengan campuran rempah tiramisu yang memberikan sentuhan kopi, coklat, dan keju yang khas. Sate pisang tiramisu ini cocok untuk para pecinta makanan penutup dan pencinta cita rasa kopi yang ingin merasakan sensasi baru dalam menikmati pisang.</p>
+                        <h2>Red Velvet</h2>
+                        <p>Sate pisang varian red velvet adalah varian yang menawan dengan sentuhan khas kue red velvet. Setiap tusukan sate pisang ini dilapisi dengan adonan red velvet yang lembut dan berwarna merah muda yang menggugah selera. Kemudian, sate pisang ini dipanggang hingga matang sempurna, sehingga menghasilkan kombinasi sempurna antara manisnya pisang dengan kelezatan kue red velvet.</p>
                     </div>
-                    <div className="card">
-                        <h2>Blackforest</h2>
-                        <p>Sate pisang varian blackforest menghadirkan kombinasi menggoda antara manisnya pisang dengan kelezatan blackforest. Setiap tusukan sate pisang ini dilapisi dengan campuran coklat hitam, krim, dan ceri yang menciptakan perpaduan harmonis antara manis, asam, dan gurih. Sate pisang blackforest ini adalah pilihan yang sempurna bagi pecinta kue blackforest yang ingin menikmati sensasi baru dengan pisang yang lezat.</p>
-
-                    </div>
-
+                   
                 </div>
             </div>
-            <Footer />
         </div>
     )   
 }

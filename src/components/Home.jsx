@@ -3,6 +3,7 @@ import "../style/main.css";
 import sate from "../assets/sate.png"
 import wave from "../assets/wave.svg"
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 
 const Home =()=> {
     return(
@@ -12,7 +13,10 @@ const Home =()=> {
                 <div className="description">
                     <h2>Sate Pisang</h2>
                     <p>Sate Pisang Hits merupakan produk yang ditawarkan kepada calon konsumen berupa perpaduan roti dengan pisang yang diberikan varian rasa yang membuat anda merasakan perpaduan yang sungguh nikmat saat memakannya.</p>
-                    <h2 className="main-button">Order Now</h2>
+                    <a href="https://wa.me/+6285156234239/" target="_blank">
+                    
+                        <h2 className="main-button">Order Now</h2>
+                    </a>
                 </div>
                 <div className="hero">
                     <img src={sate} />
@@ -27,7 +31,6 @@ const Home =()=> {
 
             </div>
         </div>
-        <Footer />
        </> 
     )
 }

@@ -16,7 +16,11 @@ const Navbar =()=> {
                     <Link to="/produk">
                         <h2>Produk</h2>
                     </Link>
-                    <h2>Kontak</h2>
+                    <Link to="/Kontak">
+
+                      <h2>Kontak</h2>
+
+                    </Link>
 
                 </div>
             </div>
