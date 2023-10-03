@@ -25,10 +25,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  background: white;
   width: 100vw;
   color: black;
-  overflow-x: hidden;
 }
 
 h1 {

@@ -11,7 +11,7 @@ const Home =()=> {
         <div id="Home">
             <div className="Container">
                 <div className="description">
-                    <h2>Sate Pisang</h2>
+                    <h1>Sate <span className="highlight">Pisang</span></h1>
                     <p>Sate Pisang Hits merupakan produk yang ditawarkan kepada calon konsumen berupa perpaduan roti dengan pisang yang diberikan varian rasa yang membuat anda merasakan perpaduan yang sungguh nikmat saat memakannya.</p>
                     <a href="https://wa.me/+6285156234239/" target="_blank">
                     
