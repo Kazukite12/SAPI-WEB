@@ -25,8 +25,11 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  width: 100vw;
+  width: 100%;
+  padding: 0;
+  height: max-content;
   color: black;
+  overflow-x: hidden;
 }
 
 h1 {

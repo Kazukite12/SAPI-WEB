@@ -28,7 +28,6 @@ const Contact =()=> {
                     <h2>085156234239</h2>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }
